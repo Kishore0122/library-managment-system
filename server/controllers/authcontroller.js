@@ -2,7 +2,7 @@ import ErrorHandler from "../middlewares/errorMiddlewares.js";
 import bcrypt from "bcrypt";
 import crypto from "crypto";
 import User from "../models/usermodels.js";
-import { sendVerificationCode } from "../utils/sendverificationcode.js";
+  import sendverificationcode from '../utils/sendverificationcode.js';
 import { sendtokan } from "../utils/sendtokan.js";
 import { generatepasswordresetemailtemplate } from "../utils/emailtemplate.js";
 import { sendEmail } from "../utils/sendemail.js"; 
